@@ -65,7 +65,7 @@ const Index = () => {
           </TouchableOpacity>
 
           {/* Link to Register */}
-          <Link href="/modal" style={styles.link}>
+          <Link href="/register" style={styles.link}>
             Open Modal
           </Link>
         </View>
