@@ -1,10 +1,12 @@
 import { StyleSheet, Text, View } from "react-native";
 import React from "react";
+import Tasks from "../custom1/tasks";
 
 const Register = () => {
   return (
     <View style={styles.container}>
       <Text style={styles.text}>Register Screen</Text>
+   <Tasks />
     </View>
   );
 };
